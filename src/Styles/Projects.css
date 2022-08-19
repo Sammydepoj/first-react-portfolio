@@ -1,0 +1,50 @@
+.Project-heading{
+    margin: 2rem;
+}
+
+.container{
+    margin:2rem;
+    display: grid;
+    gap: 0.5rem;
+    grid-template-areas:
+    'a b b '
+    'a c d'
+    'e e d'
+    'e e f'
+    ;
+}
+.container div{
+    padding: 1em;
+    text-align: left;
+}
+ .f1{
+    background-color: rgb(255, 51, 0);
+    grid-area: a;
+    min-height: 10rem;
+}
+.f2{
+    background-color: rgb(245, 151, 11);
+    grid-area: b;
+    min-height: 10rem;
+}
+.f3{
+
+    background-color: rgb(0, 255, 42);
+    grid-area: c;
+    min-height: 10rem;
+}
+.f4{
+    background-color: rgb(87, 110, 243);
+    grid-area: d;
+    min-height: 10rem;
+}
+.f5{
+    background-color: rgb(87, 110, 243);
+    grid-area: e;
+    min-height: 10rem;
+}
+.f6{
+    background-color: rgb(2, 11, 63);
+    grid-area: f;
+    min-height: 10rem;
+}

@@ -1,0 +1,25 @@
+ul{
+    display: flex;
+    list-style-type: none;
+}
+li,h2{
+    margin:1rem 2rem;
+}
+
+.head{
+    display: flex;
+    /* background-color: blue; */
+}
+.logo-menu{
+    display: flex;
+}
+.image-container{
+    width: 40%;
+    background-color: #D3DCF8;
+}
+.image-container img{
+    width: 100%;
+}
+.intro{
+    margin: 15rem 2rem;
+}

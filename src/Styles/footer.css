@@ -1,0 +1,15 @@
+.foot{
+    padding: 2rem;
+    background-color: #07102C;
+    color: white;
+}
+.name{
+    display: flex;
+    justify-content: space-between;
+
+}
+.socials{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}

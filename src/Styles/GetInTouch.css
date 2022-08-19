@@ -1,0 +1,40 @@
+.Get{
+    display: flex;
+    margin: 0rem;
+}
+.getInTouch{
+    margin: 2rem;
+}
+.getInTouch p{
+    margin:2rem;
+}
+.getInTouch img{
+    margin:1rem 1rem 0rem 0rem;
+}
+.getInTouch span{
+    margin: -2rem 0rem 0rem 1rem;
+}
+.sendMessage{
+    margin: 2rem;
+    background-color: #1C41B0;
+    padding: 2rem;
+    width: 50%;
+    color: white;
+}
+.sendMessage input{
+    margin:1rem;
+    background-color: transparent;
+    border: none;
+    padding: 0.5rem;
+    border-bottom: 1px solid white;
+    width: 80%;
+}
+button{
+    margin:1rem;
+    background-color: white;
+    color: #1C41B0;
+    padding: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}

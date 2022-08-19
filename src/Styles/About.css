@@ -1,0 +1,12 @@
+.about-container{
+    display: flex;
+    place-items: center;
+    place-content: center;
+    background-color: #F6F8FE;
+    margin: 2rem;
+}
+
+.about-container-text{
+    width: 30%;
+    text-align: center;
+}
